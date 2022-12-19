@@ -46,11 +46,11 @@ function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/account" element={<AdminPanel />} />
-                    <Route path="/admin/timeline" element={<Timeline />} />
+                    <Route path="/account" element={<AdminPanel />} /> 
+                    {/* <Route path="/admin/timeline" element={<Timeline />} />
                     <Route path="/admin/youtube" element={<Youtube />} />
 
-                    <Route path="/admin/project" element={<Project />} />
+                    <Route path="/admin/project" element={<Project />} /> */} 
                 </Routes>
 
                 <Footer />
